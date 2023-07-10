@@ -161,5 +161,5 @@ jobs:
       uses: appleboy/telegram-action@master
       with:
         to: ${{ secrets.TELEGRAM_TO }}
-        token: ${{ secrets.TELEGRAM_TOKEKN }}
+        token: ${{ secrets.TELEGRAM_TOKEN }}
         message: Deployment completed successfully!
